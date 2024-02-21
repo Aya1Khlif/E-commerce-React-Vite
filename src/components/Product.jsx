@@ -18,7 +18,7 @@ export default function Product(props) {
                 </Card.Text>
                 <p>Price : {product.price}</p>
                 {showButton &&  (
-                    <Link className="btn btn-primary" to={`/product/${product.id}`}>
+                    <Link className="btn btn-primary" to={`/E-commerce-React-Vite/product/${product.id}`}>
                     Details
                   </Link>
           )}
