@@ -12,7 +12,7 @@ function App() {
       <NavBAR />
       <Routes>
         <Route
-          path="/"
+          path="/E-commerce-React-Vite"
           element={
             <>
               <Slider />
@@ -20,8 +20,8 @@ function App() {
             </>
           }
         />
-        <Route path="about" element={<About />} />
-        <Route path="product/:productId" element={<ProductDeateles />} />
+        <Route path="/E-commerce-React-Vite/about" element={<About />} />
+        <Route path="/E-commerce-React-Vite/product/:productId" element={<ProductDeateles />} />
       </Routes>
     </div>
     </>
