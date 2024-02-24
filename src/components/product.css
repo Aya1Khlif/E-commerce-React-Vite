@@ -1,26 +1,23 @@
 .card {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 972px) {
+  .card {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 755px) {
+  .card {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-  
-}
-
-@media (max-width:972px) {
-    .card {
-        display: flex;
-        gap: 50px;
-        flex-wrap: wrap;
-      
-    }
-}
-@media (max-width:755px) {
-    .card {
-        display: flex;
-   justify-content: space-between;
-   align-items: center;
-        flex-wrap: wrap;
-      
-    }
+  }
 }

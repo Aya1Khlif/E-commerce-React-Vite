@@ -1,14 +1,16 @@
 import "./App.css";
-import NavBAR from "./components/NavBAR";
-import ProductsList from "./components/ProductsList";
-import Slider from "./components/Slider";
-import { Route, Routes } from "react-router-dom";
-import About from "./components/About";
-import ProductDeateles from "./components/ProductDetails";
+import Json from "./jsonPlaceHolder/Json";
+
+// import NavBAR from "./components/NavBAR";
+// import ProductsList from "./components/ProductsList";
+// import Slider from "./components/Slider";
+// import { Route, Routes } from "react-router-dom";
+// import About from "./components/About";
+// import ProductDeateles from "./components/ProductDetails";
 function App() {
   return (
     <>
-       <div className="App">
+       {/* <div className="App">
       <NavBAR />
       <Routes>
         <Route
@@ -23,7 +25,8 @@ function App() {
         <Route path="/E-commerce-React-Vite/about" element={<About />} />
         <Route path="/E-commerce-React-Vite/product/:productId" element={<ProductDeateles />} />
       </Routes>
-    </div>
+    </div> */}
+    <Json />
     </>
   );
 }

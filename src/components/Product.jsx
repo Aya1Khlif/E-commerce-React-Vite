@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "./product.css";
 import Card from "react-bootstrap/Card";
+
+
 export default function Product(props) {
   const { product, showButton } = props;
   return (
